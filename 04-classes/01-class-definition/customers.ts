@@ -9,9 +9,15 @@ class customer2{
         this._lastName = value;
     }
 
-    constructor(theFirst: string, theLast: string){
+    /**
+     * Creates a new customer instance.
+     * 
+     * @param theFirst - The first name of the customer.
+     * @param theLast - The last name of the customer.
+     */
+    constructor(theFirst: string, theLast: string) {
         this._firstName = theFirst;
-        this._lastName = theLast
+        this._lastName = theLast;
     }
 
     public get firstName(): string{
